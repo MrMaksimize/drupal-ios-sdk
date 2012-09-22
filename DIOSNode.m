@@ -36,7 +36,6 @@
 
 #import "DIOSNode.h"
 #import "DIOSSession.h"
-#import "AFJSONUtilities.h"
 @implementation DIOSNode
 
 #pragma mark nodeGets
@@ -102,7 +101,7 @@
   [[DIOSSession sharedSession] getPath:[NSString stringWithFormat:@"%@/%@", kDiosEndpoint, kDiosBaseNode] parameters:params success:success failure:failure];
 }
 
-#pragma mark nodeAttachFile
+/*#pragma mark nodeAttachFile
 + (void)nodeAttachFile:(NSDictionary *)params
                success:(void (^)(AFHTTPRequestOperation *operation, id responseObject)) success
                failure:(void (^)(AFHTTPRequestOperation *operation, NSError *error)) failure {
@@ -116,5 +115,5 @@
   }];
   [operation setCompletionBlockWithSuccess:success failure:failure];
   [operation start];
-}
+}*/
 @end

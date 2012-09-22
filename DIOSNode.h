@@ -63,7 +63,7 @@
           success:(void (^)(AFHTTPRequestOperation *operation, id responseObject)) success
           failure:(void (^)(AFHTTPRequestOperation *operation, NSError *error)) failure;
 
-+ (void)nodeAttachFile:(NSDictionary *)params
+/*+ (void)nodeAttachFile:(NSDictionary *)params
                success:(void (^)(AFHTTPRequestOperation *operation, id responseObject)) success
-               failure:(void (^)(AFHTTPRequestOperation *operation, NSError *error)) failure;
+               failure:(void (^)(AFHTTPRequestOperation *operation, NSError *error)) failure;*/
 @end
