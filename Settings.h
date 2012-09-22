@@ -1,4 +1,4 @@
-#define kDiosBaseUrl @"https://www.pdup.allplayers.com"
+#define kDiosBaseUrl @"https://www.allplayers.com"
 #define kDiosEndpoint @"api/v1/rest"
 #define kDiosBaseNode @"node"
 #define kDiosBaseComment @"comment"
